@@ -1,0 +1,404 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* NavBar CSS Start */
+#container {
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    width: 100vw;
+    background-color: rgba(49, 91, 228, 0.129);
+    overflow: hidden;
+}
+
+.logo {
+    float: left;
+    padding: 5px;
+    padding-top: 5px;
+    margin-left: 71px;
+}
+
+img {
+    width: 35px;
+    height: 35px;
+    border-radius: 25px;
+}
+
+#content {
+    float: right;
+    padding: 7px;
+    margin-right: 71px;
+}
+
+.logo_text a {
+    font-size: 35px;
+    color: azure;
+    font-style: italic;
+}
+
+.logo_text {
+    float: left;
+    padding-top: 5px;
+}
+
+a {
+    padding-top: 15px;
+    padding: 5px;
+    font-size: 21px;
+    color: rgb(63, 254, 5);
+    text-decoration: none;
+}
+
+a:hover {
+    color: aqua;
+}
+
+#textc {
+    float: left;
+    margin-right: 7px;
+    padding-top: 7px;
+}
+
+a:active {
+    color: aquamarine;
+}
+
+#container img:hover,
+.blink:hover {
+    animation: newa 1s infinite linear;
+}
+
+@keyframes newa {
+    0% {
+        opacity: 100%;
+        color: blue;
+    }
+
+    50% {
+        opacity: 25%;
+        color: ghostwhite
+    }
+
+    100% {
+        opacity: 100%;
+        color: yellow;
+    }
+}
+
+/* NavBar CSS End */
+
+.blink {
+    opacity: 5%;
+    font-size: 35px;
+    animation: newanim 3s infinite linear;
+    width: fit-content;
+}
+
+@keyframes newanim {
+    0% {
+        opacity: 25%;
+    }
+
+    50% {
+        opacity: 100%;
+    }
+
+    100% {
+        opacity: 25%;
+    }
+}
+
+body {
+    background-image: url(background_desk.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0.5, 0, 0.5), rgba(0.5, 0, 0.6, 0.481)), url(background_desk.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#home {
+    padding-top: 55px;
+    height: auto;
+    /*  width: 100vw; */
+    background-size: px;
+    color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+}
+
+#maintitle,
+#hello {
+    width: fit-content;
+    margin-left: 95px;
+    font-size: 37px;
+}
+
+#hello {
+    padding-top: 15px;
+}
+
+#ud {
+    color: bisque;
+    margin-left: 95px;
+    font-size: 21px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.btn {
+    font-size: 21px;
+    padding: 7px;
+    background-color: black;
+    border: 0px red solid;
+    border-radius: 15px;
+    color: rgba(10, 245, 34, 0.988);
+}
+
+#dbtn {
+    margin-top: 7px;
+    margin-left: 113px;
+    background-color: rgba(105, 27, 178, 0.53);
+}
+
+#cbtn {
+    background-color: rgba(105, 27, 178, 0.53);
+}
+
+.btn:hover,
+#dbtn:hover,
+#cbtn:hover {
+    color: white;
+}
+
+#eplace i {
+    color: rgb(234, 192, 27);
+}
+
+#eplace {
+    font-size: 21px;
+    padding: 7px;
+    margin-top: 15px;
+    margin-left: 85px;
+}
+
+#eplace h3 {
+    font-size: 21px;
+    display: inline;
+    padding: 25px;
+
+}
+
+#extra {
+    height: 25px;
+}
+
+/* Project Tab Start*/
+#pr {
+    margin-top: 35px;
+}
+
+.new {
+    /* border: 1px rgb(236, 221, 221) solid;
+    border-radius: 51px; */
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: fit-content;
+    padding: 25px;
+}
+
+.p {
+    width: 250px;
+    margin: 15px;
+    height: 195px;
+    border-radius: 25px;
+    border: 1px blue solid;
+    padding: 11px;
+    background-color: rgba(0, 0, 255, 0.174);
+    text-align: center;
+}
+
+#pr h2 {
+    text-align: center;
+    font-size: 31px;
+    color: white;
+}
+
+.p span {
+    font-size: 23px;
+    color: white;
+}
+
+.p p {
+    margin-top: 15px;
+    color: white;
+    font-size: 19px;
+
+}
+
+.p a {
+    font-size: 17px;
+    color: bisque
+}
+
+.p a:hover {
+    color: rgb(69, 255, 49);
+}
+
+.p span:hover {
+    color: rgb(0, 247, 255);
+}
+
+.p:hover {
+    border: 2px rgb(255, 232, 232) solid;
+}
+
+/* Project Tab End */
+
+/* Skills Start */
+.p div {
+    padding: 3px;
+    color: bisque;
+    font-size: 21px;
+}
+
+#f {
+    background: radial-gradient(rgba(0, 0, 0, 0.4), rgba(0, 1, 0, 0.6), rgba(1, 0, 1, 0.7)), url(front.jpg);
+}
+
+#b {
+    background: radial-gradient(rgba(0, 0, 0, 0.4), rgba(0, 1, 0, 0.6), rgba(1, 0, 1, 0.7)), url(back.jpg);
+}
+
+#db {
+    background: radial-gradient(rgba(1, 0, 0, 0.4), rgba(0, 1, 0, 0.6), rgba(1, 0, 1, 0.7)), url(db.jpg);
+}
+
+#b,
+#f,
+#db {
+    height: 185px;
+    font-size: 25px;
+    color: aliceblue;
+    background-size: cover;
+}
+
+
+
+#skills h2 {
+    text-align: center;
+    font-size: 31px;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 11px;
+}
+#f h2,
+#b h2,#db h2 {
+    font-size: 25px;
+}
+
+/* Skills End */
+
+/* Contact From Start  */
+#cmb {
+    text-align: center;
+}
+
+table {
+    padding-top: 35px;
+    width: fit-content;
+    margin: auto;
+}
+
+td,
+input,
+#cmb1 {
+    font-size: 17px;
+    padding: 5px;
+
+}
+
+input {
+    width: 551px;
+    border-radius: 25px;
+    padding: 7px;
+    padding-left: 15px;
+    border: 0;
+}
+
+#cmb1 {
+    color: rgb(47, 209, 6);
+    background-color: rgba(81, 15, 235, 0.394);
+    box-shadow: rgb(118, 229, 229);
+}
+
+input:hover {
+    /* background-color: rgba(67, 171, 29, 0.357); */
+    color: rgb(174, 4, 4);
+}
+
+#cmb1:hover {
+    color: aqua;
+}
+
+#cmb1 {
+    border-radius: 25px;
+    font-weight: 800;
+    padding: 11px;
+    font-size: 21px;
+    border: 0;
+}
+
+/* Contact From End  */
+/* About Section Start */
+#adiv {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: fit-content;
+}
+.edu {
+    width: 250px;
+    background: linear-gradient(rgba(0,1,0,0.3),rgba(15, 102, 251, 0.5),rgba(0,1,0,0.5));
+    border: 0px rgb(232, 232, 232) solid;
+    box-shadow: rgba(39, 126, 126, 0.458) 3px 3px;
+    border-radius: 41px;
+    margin: 7px;
+    text-align: center;
+    padding: 15px;
+}
+.edu span {
+    font-size: 25px;
+    text-align: center;
+    color:whitesmoke;
+    font-weight: 500;
+}
+.edu p {
+    font-size: 21px;
+    text-align: justify;
+    color:aliceblue;
+    margin-top: 15px;
+}
+#ab h2{
+    padding-top: 55px;
+    text-align: center;
+    font-size: 31px;
+    color:azure;
+    margin-bottom: 25px;
+}
+.edu:hover{
+    box-shadow: rgba(36, 154, 165, 0.741) 3px 3px;
+}
+/* About Section End */
+/* Footer Section Start */
+footer{
+    font-size: 23px;
+    color:white;
+    font-weight: 700;
+    text-align: center;
+    margin:15px;
+}
+footer span{
+    font-size: 25px;
+}
+/* Footer Section End */
