@@ -225,7 +225,8 @@ body {
     border: 1px blue solid;
     padding: 11px;
     color:blue;
-    background-color: rgba(255, 255, 255, 0.275);
+    background: linear-gradient(135deg, rgba(0, 0, 255, .3), rgba(56, 56, 60, 0.5),rgba(0, 0, 255, .3) );
+    /* background-color: rgba(255, 255, 255, 0.275); */
     text-align: center;
 }
 
