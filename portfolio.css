@@ -350,6 +350,7 @@ input:hover {
 }
 
 #cmb1:hover {
+    cursor: pointer;
     color: aqua;
 }
 
