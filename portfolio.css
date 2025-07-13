@@ -11,7 +11,7 @@ html{
 /* NavBar CSS Start */
 #container {
     padding: 0;
-    margin: 0;
+    margin: 0;hover
     position: fixed;
     width: 100vw;
     background-color: rgba(49, 91, 228, 0.129);
@@ -263,6 +263,7 @@ body {
 
 .p:hover {
     border: 2px rgb(255, 232, 232) solid;
+    padding: 10px;
 }
 
 /* Project Tab End */
